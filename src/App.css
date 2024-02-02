@@ -1,0 +1,108 @@
+#root {
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.sidebar{
+  background-color: #fafafa;
+}
+.logoHead{
+   color: #0a337a;
+   font-weight:600;
+   font-size: 2vw;
+   
+}
+.logo{
+  padding:10% 0% 0% 10% ;
+}
+.mainMenu{
+  color: #848484;
+  font-weight: 600;
+}
+.icon{
+  font-size: 1.5vw;
+}
+.mainMenu h2{
+  font-size:1vw;
+  cursor: pointer;
+}
+.search {
+  width: 20vw;
+  border-radius: 10px;
+  background-color:#fafafa;
+}
+
+.first,.sec{
+  width: 50%;
+}
+.activityHead{
+  background-color:#1b204a;
+}
+.activityBody{
+  background-color: #121843;
+  color: #848484;
+}
+.left{
+  width: 70%;
+}
+.iconBar{
+  display: none;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1023px) {
+  .sidebar{
+    display: none;
+  }
+  .content{
+    padding-left:0;
+  }
+  .search input{
+    width: 100%;
+  }
+  .first,.sec{
+    width: 70%;
+  }
+  .left,.right{
+    width: 100%;
+  }
+  .first,.sec{
+    width: 50%;
+  }
+  .contentBody{
+    flex-direction: column;
+  }
+  .iconBar{
+    display: block;
+    width: 5%;
+  }
+  .hamburger{
+    display: none;
+  }
+}
+@media only screen  and (max-width: 600px) {
+  .content{
+    padding-left:0;
+  }
+  
+  .search input{
+    width: 20%;
+  }
+  .contentBody{
+    padding:0;
+  }
+  .left{
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+  }
+  .statsBox{
+    width: 100vw;
+    margin: 0;
+  }
+  .first,.sec{
+    width: 100%;
+  }
+  .sidebar{
+    display: none;
+  }
+}
