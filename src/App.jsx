@@ -7,7 +7,7 @@ import GraphBox from './components/GraphBox';
 import Announcement from './components/Announcement';
 import Activity from './components/Activity';
 import Schedule from './components/Schedule';
-import SidebarIcon from './components/SIdebarIcon';
+import SidebarIcon from './components/SidebarIcon';
 import Menu from './components/Menu';
 function App() {
   const [menu, setMenu] = useState(false);
