@@ -17,9 +17,9 @@ const Topbar = ({handleMenu}) => {
                     </div>
                 </div>
                 <div className="profile flex items-center ">
-                    <Icon icon="carbon:notification-new" style={{ color: 'grey', fontSize: '2.3vh' }} className='mr-4' />
-                    <Icon icon="mdi:message" style={{ color: 'grey', fontSize: '2.3vh' }} className='mr-4' />
-                    <Icon icon="carbon:user-avatar-filled" style={{ color: 'grey', fontSize: '2.3vh' }} className='mr-4' />
+                    <Icon icon="carbon:notification-new" style={{ color: 'grey',  }} className='mr-4' />
+                    <Icon icon="mdi:message" style={{ color: 'grey' }} className='mr-4' />
+                    <Icon icon="carbon:user-avatar-filled" style={{ color: 'grey' }} className='mr-4' />
                     <h2 className='font-semibold user' style={{fontSize:'2.3vh'}}>Admirra John</h2>
                 </div>
 
