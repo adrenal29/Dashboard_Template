@@ -9,7 +9,7 @@ const Menu = ({handleClick}) => {
         </div>
         <div className="pl-8 mt-10 ">
             <h1 className='text-2xl'>Main Menu</h1>
-            <ul className='flex flex-col mt-5 text-4xl'>
+            <ul className='flex flex-col mt-5 text-3xl'>
                 <li className='flex items-center mb-4'>
                     <Icon icon="material-symbols:dashboard" className='mr-8 icon text-2xl' />
                     <h2>Dashboard</h2>
@@ -32,7 +32,7 @@ const Menu = ({handleClick}) => {
                 </li>
             </ul>
             <h1 className='mt-10 text-2xl'>Other</h1>
-            <ul className='mt-5 text-4xl'>
+            <ul className='mt-5 text-3xl'>
                 <li className='mb-4 flex items-center'>
                     <Icon icon="mingcute:headphone-line" className='mr-8 icon text-2xl' />
                     <h2>Support</h2>
